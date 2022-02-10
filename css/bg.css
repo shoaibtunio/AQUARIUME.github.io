@@ -1,0 +1,45 @@
+body{
+    background-color: #122e4a;
+}
+.onee{
+    width: 300px;
+    height: 50px;
+    margin-left: 60px;
+    position:absolute;
+    color: white;
+    margin-top: 25px;
+}
+.onee h4{
+    margin-top: 13px;
+    margin-left: 12px;
+}
+@media (max-width:410px){
+    .onee{
+        width: 150px;
+        height: 50px;
+        margin-left: 40px;
+        margin-top: -11px;
+        position:absolute;
+        color: white;
+    }
+    .onee h4{
+        margin-top: 13px;
+        margin-left: -15px;
+        font-size: 15px;
+    }
+    .onee mansoor{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin-top: -7px;
+        margin-left: -74px;
+    }
+}
+@media (max-width:990px){
+    .onee{
+        margin-top: -22px;
+    }
+    .onee h4{
+        margin-left: -15px;
+    }
+}
